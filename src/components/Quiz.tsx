@@ -11,7 +11,7 @@ interface Props {
 
 export default function Quiz({ quiz, level, language, answers, setAnswers, onSubmit }: Props) {
   return (
-    <div className="card max-w-3xl mx-auto text-left">
+    <div className="card max-w-3xl mx-auto text-left mt-5">
       <h2 className="text-2xl font-semibold">
         {level} · {language}
       </h2>

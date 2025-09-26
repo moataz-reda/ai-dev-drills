@@ -1,0 +1,5 @@
+/* Tailwind now handles styles. Keep minimal helpers for demo-specific classes if needed. */
+#root { @apply max-w-screen-lg mx-auto p-6 text-center; }
+.logo { @apply h-24 p-6 transition; }
+.card { @apply p-6 bg-white/5 rounded-lg border border-white/10; }
+.read-the-docs { @apply text-gray-400; }
